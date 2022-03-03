@@ -36,7 +36,7 @@
 }
 
 .dark-theme .menu__theme {
-    background-image: url(/img/icon/icon-moon.svg);
+    background-image: url(../img/icon/icon-moon.svg);
 }
 
 .dark-theme .subscribe__input {

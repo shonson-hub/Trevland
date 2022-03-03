@@ -62,7 +62,7 @@ box-sizing: border-box;
     display: block;
     width: 100%;
     height: 900px;
-    background-image: url("/img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top;
@@ -151,7 +151,7 @@ box-sizing: border-box;
     top: -45px;
     width: 40px;
     height: 40px;
-    background-image: url(/img/icon/icon-sun.svg);
+    background-image: url(../img/icon/icon-sun.svg);
     background-repeat: no-repeat;
     background-position: 50%, 50%;
     background-color: transparent;
@@ -523,9 +523,9 @@ box-sizing: border-box;
     margin-top: 15px;
 }
 
-.news__item:hover {
+/* .news__item:hover {
     transform: scale(1.01,1.01);
-}
+} */
 
 .news__body {
     display: block;
@@ -568,6 +568,7 @@ box-sizing: border-box;
 }
 
 .news__picture img:hover {
+    transform: scale(1.01,1.01);
     opacity: 1;
     transition: opacity 0.1s ease-in;
 }
@@ -678,24 +679,24 @@ box-sizing: border-box;
     width: 20px;
     height: 20px;
     top: 0;
-    background-image: url("/img/star-icon.svg");
+    background-image: url("../img/star-icon.svg");
     background-repeat: no-repeat;
 }
 
 .contacts-footer__link--facebook::after {
-    background-image: url("/img/icon/facebook-icon.svg");
+    background-image: url("../img/icon/facebook-icon.svg");
 }
 
 .contacts-footer__link--instagram::after {
-    background-image: url("/img/icon/instagram-icon.svg");
+    background-image: url("../img/icon/instagram-icon.svg");
 }
 
 .contacts-footer__link--twitter::after {
-    background-image: url("/img/icon/twitter-icon.svg");
+    background-image: url("../img/icon/twitter-icon.svg");
 }
 
 .contacts-footer__link--google::after {
-    background-image: url("/img/icon/google-icon.svg");
+    background-image: url("../img/icon/google-icon.svg");
 }
 
 .about__list,
@@ -862,7 +863,7 @@ box-sizing: border-box;
     transform: scale(1.5);
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.4);
     background-color: var(--basik-white);
-    background-image: url(/img/no.jpg);
+    background-image: url(../img/no.jpg);
     background-repeat: no-repeat;
     background-position: 50% 140%;
     z-index: 1;
@@ -896,7 +897,7 @@ box-sizing: border-box;
     right: 70px;
     top: 48px;
     border: 0;
-    background: url(/img/icon/close-cross.svg);
+    background: url(../img/icon/close-cross.svg);
     background-repeat: no-repeat;
     cursor: pointer;
     border: none;
