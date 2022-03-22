@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" > -->
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
@@ -70,9 +69,11 @@
                     <b>Special Offers</b>
                     <p>With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates.</p>
                 </div>
-                <div class="special__main">
-                    <ul class="special__list">
-                        <li class="special__item item-special _hidden">
+                <div class="special__main-slider">
+                    <!-- Additional required wrapper -->
+                    <div class="special__list">
+                      <!-- Slides -->
+                        <div class=" special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/new-york.png" width="262" height="173" alt="Статуя свободы на фоне города">
                                 <div class="item-special__body">
@@ -81,11 +82,10 @@
                                     <p class="item-special__grade">4.8</p>
                                     <p class="item-special__long">4 Day 5 Nights</p>
                                     <p class="item-special__price"><span>$450</span>/person</p>
-
                                 </div>
                             </a>
-                        </li>
-                        <li class="special__item item-special">
+                        </div>
+                        <div class="special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/great-wall.png" width="262" height="173" alt="Статуя свободы на фоне города">
                                 <div class="item-special__body">
@@ -97,8 +97,8 @@
 
                                 </div>
                             </a>
-                        </li>
-                        <li class="special__item item-special">
+                        </div>
+                        <div class="special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/dizin-valley.png" width="262" height="173" alt="Статуя свободы на фоне города">
                                 <div class="item-special__body">
@@ -109,8 +109,8 @@
                                     <p class="item-special__price"><span>$400</span>/person</p>
                                 </div>
                             </a>
-                        </li>
-                        <li class="special__item item-special">
+                        </div>
+                        <div class="special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/sajek-valley.png" width="262" height="173" alt="Статуя свободы на фоне города">
                                 <div class="item-special__body">
@@ -121,8 +121,8 @@
                                     <p class="item-special__price"><span>$400</span>/person</p>
                                 </div>
                             </a>
-                        </li>
-                        <li class="special__item item-special _hidden">
+                        </div>
+                        <div class="special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/new-york.png" width="262" height="173" alt="Статуя свободы на фоне города">
                                 <div class="item-special__body">
@@ -133,9 +133,9 @@
                                     <p class="item-special__price"><span>$700</span>/person</p>
                                 </div>
                             </a>
-                        </li>
-                    </ul>
-                </div>
+                        </div>
+                    </div>
+                
                 <div class="special__carousel carusel">
                     <div>&laquo;</div>
                     <div class="carousel__buttons">
@@ -261,8 +261,6 @@
             <p class="modal-submit__message"></p>
         </div>
     </div>
-    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
-    <!-- <script src="js/slick.min.js"></script>     -->
     <script src="js/script.js"></script>
 </body>
 </html>

@@ -42,6 +42,8 @@ li {
 }
 
 img {
+margin: 0;
+padding: 0;
 display: block;
 max-width: 100%;
 height: auto;
@@ -322,21 +324,18 @@ box-sizing: border-box;
 }
 
 .special__list {
-    /* display: flex;
-    position: relative;
-    padding: 0 60px; */
-    /* min-width: 0; */
     display: flex;
-    gap: 73px;
-    list-style: none;
-    justify-content: center;
+    margin-top: 40px;
+    width: 950px;
+    height: 300px;
+    margin-left: 100px;
 }
 
 .special__item {
     display: block;
     width: 262px;
-    height: 334px;
-    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    max-height: 334px;
+    margin: 0 auto;
     border-radius: 10px;
     transition: all 0.2s linear;
 }
@@ -353,7 +352,7 @@ box-sizing: border-box;
 }
 
 .item-special__name {
-    width: 170px;
+    width: 194px;
     font-family: "Gelasio";
     font-weight: 500;
     font-size: 24px;
@@ -363,7 +362,6 @@ box-sizing: border-box;
 .item-special__body {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 50px; */
     margin-top: 10px;
     padding-left: 5px;
 }
@@ -414,7 +412,7 @@ box-sizing: border-box;
     position: absolute;
     width: 24px;
     height: 24px;
-    left: -40px;
+    left: -35px;
     top: 0;
     background-image: url("../img/icon/star-icon.svg");
     background-repeat: no-repeat;
@@ -426,8 +424,8 @@ box-sizing: border-box;
     width: 120px;
     margin: 0;
     padding: 0;
-    right: 130px;
-    top: 40px;
+    right: 0;
+    top: 10px;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -449,7 +447,7 @@ box-sizing: border-box;
     position: relative;
     margin: 0;
     padding: 0;
-    top: 50px;
+    top: 30px;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -522,10 +520,6 @@ box-sizing: border-box;
     min-height: 201px;
     margin-top: 15px;
 }
-
-/* .news__item:hover {
-    transform: scale(1.01,1.01);
-} */
 
 .news__body {
     display: block;
@@ -842,9 +836,10 @@ box-sizing: border-box;
 
 .special__main {
     width: 1140px;
+    margin-top: 50px;
     height: 100%;
     display: block;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
 }
 
@@ -914,8 +909,6 @@ box-sizing: border-box;
 .modal-booking__close:active {
     opacity: 0.3;
     top: 49px;
-    /* transform: rotate(180deg);
-    transition: transform 0.3s; */
     box-shadow: none;
     background-color: #ffffff;
 }
