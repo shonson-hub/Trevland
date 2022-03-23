@@ -10,6 +10,8 @@ const email = document.querySelector(".subscribe__input");
 const page = document.querySelector(".page");
 const toggleTheme = document.querySelector(".menu__theme");
 const header = document.querySelector(".header");
+const burger = document.querySelector(".burger");
+const burgerMenu = document.querySelector(".burger-menu__list");
 
 //Попапы
 
@@ -40,10 +42,22 @@ window.addEventListener('keydown', (e) => {
     }
 })
 
+// Burger
+
+
+
+burger.addEventListener("click", () => {
+    burger.classList.toggle("activebrgr")
+    burgerMenu.classList.toggle("show-burger")
+    
+
+});
+
 //Переключатель темы
 
 toggleTheme.onclick = function() {
     page.classList.toggle("dark-theme");
+    
 }
 
 const goToTop = () => {

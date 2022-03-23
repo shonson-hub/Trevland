@@ -4,15 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/style-dark-theme.css">
+    <link rel="stylesheet" href="css/adaptive.css">
     <title>Trevland</title>
 </head>
 <body class="page">
     <header class="header">
         <div class="header__container">
             <div class="header__top top-header">
+                <div class="top-header__burger burger-menu">
+                    <div class="burger">
+                        <div class="dash"></div>
+                        <div class="dash"></div>
+                        <div class="dash"></div>
+                        <div class="dash"></div>
+                    </div>
+                    <ul class="burger-menu__list">
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Home</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Location</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Blog</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">About</a></li>
+                        <li class="burger-menu__item"><a href="#" class="burger-menu__link">Contact</a></li>
+                    </ul>
+                </div>
                 <div class="top-header__menu menu">
                     <nav class="menu__body">
                         <a href="" class="menu__logo">Trevland</a>
@@ -70,9 +86,7 @@
                     <p>With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates.</p>
                 </div>
                 <div class="special__main-slider">
-                    <!-- Additional required wrapper -->
                     <div class="special__list">
-                      <!-- Slides -->
                         <div class=" special__item item-special">
                             <a href="" class="item-special__link">
                                 <img src="img/new-york.png" width="262" height="173" alt="Статуя свободы на фоне города">
@@ -231,7 +245,7 @@
                         <li class="terms__item"><a class="terms__link">Terms of use</a></li>
                     </ul>
                 </div>
-                <div method="post   " class="footer__subscribe subscribe">
+                <div method="post" class="footer__subscribe subscribe">
                     <form class="subscribe__form">
                         <div class="subscribe__inner">
                             <label class="subscribe__label" for="subscribe__input">
@@ -256,6 +270,7 @@
         </div>
         <button class="modal-booking__close" type="button" aria-label="Закрыть"></button>
     </div>
+    
     <div class="modal-submit">
         <div class="modal-submit__container">
             <p class="modal-submit__message"></p>

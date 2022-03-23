@@ -1,0 +1,45 @@
+/* $primary-color: #3bf;
+$bg: #113; */
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background:  rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.burger {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50px;
+  height: 32px;
+  /* background: #113; */
+}
+.burger .dash {
+  width: 50px;
+  height: 5px;
+  background:  #3bf;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+.burger .dash:nth-of-type(3) {
+  position: absolute;
+  top: calc(50vh - 2.5px);
+}
+.activebrgr .dash:nth-of-type(1) {
+  opacity: 0;
+}
+.activebrgr .dash:nth-of-type(4) {
+  opacity: 0;
+}
+.activebrgr .dash:nth-of-type(3) {
+  transform: rotate(45deg);
+}
+.activebrgr .dash:nth-of-type(2) {
+  transform: rotate(-45deg);
+}

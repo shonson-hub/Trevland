@@ -1,0 +1,173 @@
+@media (max-width: 1200px) {
+    .popular__list {
+        display: block;
+        /* text-align: center; */
+    }
+    
+    .popular__item {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .item-special:nth-child(1),
+    .item-special:nth-child(5) {
+        display: none;
+    }
+
+    .special__list {
+        margin: 0 auto;
+    }
+
+    .item-special__long {
+        padding-bottom: 25px;
+    }
+
+    .news__list {
+        display: block;
+    }
+    
+    .news__item {
+        display: block;
+        margin: 0 auto;
+        /* text-align: center; */
+    }
+
+    .news__item img {
+        width: 554px;
+        height: 397px;
+    }
+
+    .news__body p {
+        width: 240px;
+    }
+
+    .news__item--main p {
+        width: 470px;
+    }
+
+    .modal-booking {
+        max-width: 430px;
+        max-height: 245px;
+        background-position: 50% 18%;
+    }
+
+    /* .modal-booking__close {
+        top: 10px;
+        right: 10px;
+    } */
+}
+
+@media (max-width: 767px) {
+    .menu__list {
+        display: none;
+        width: 515px;
+    }
+
+    .main-header__title {
+        font-weight: 500;
+        font-size: 45px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .main-header p {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .menu__body {
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .menu__booking {
+        margin: 50px auto;
+    }
+
+    .menu__logo {
+        font-weight: 500px;
+        font-size: 32px;
+        margin: 0 auto;
+    }
+
+    .main-header__explore {
+        margin-top: 30px ;
+    }
+
+    .about__list,
+    .terms__list {
+        display: none;
+    }
+    
+    .footer__body {
+        display: block;
+        text-align: center;
+    }
+
+    .footer__subscribe {
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+    .contacts-footer__item {
+        margin: 0 auto;
+    }
+
+    .subscribe__button {
+        top: 20px;
+        left: -15px;
+    }
+    
+    .subscribe__form {
+        padding-bottom: 50px;
+    }
+
+    .item-special:nth-child(2),
+    .item-special:nth-child(4) {
+        display: none;
+    }
+
+    .popular__header p,
+    .special__header p,
+    .news__header p {
+        padding: 0 10px;
+
+    }
+
+    .news__item {
+        text-align: center; 
+    }
+
+    .news__item img {
+        width: 263px;
+        height: 201px;
+        margin: 0 auto;
+    }
+
+    .news__body {
+        margin: 0 auto;
+    }
+
+    .news__item--main p {
+        max-width: 270px;
+    }
+
+    .burger-menu__list {
+        /* display: block; */
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .menu__theme {
+        top: 5px;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    
+}

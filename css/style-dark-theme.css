@@ -75,6 +75,8 @@
     box-shadow: 0px 0px 10px 10px rgba(51, 245, 245, 1);
 }
 
+.dark-theme .burger-menu__link:hover,
+.dark-theme .burger-menu__link:active,
 .dark-theme button:hover,
 .dark-theme .main-header__explore span:hover {
     text-shadow: 
