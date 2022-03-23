@@ -1042,5 +1042,5 @@ transform: rotate(-45deg);
 }
 
 .show-burger {
-    display: block;
+    display: none;
 }

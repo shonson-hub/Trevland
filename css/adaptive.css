@@ -50,6 +50,11 @@
         max-height: 245px;
         background-position: 50% 18%;
     }
+    
+    .modal-booking h2,
+    .modal-booking__text{
+        display: none;
+    }
 
     /* .modal-booking__close {
         top: 10px;
@@ -169,5 +174,8 @@
         display: flex;
     }
 
-    
+    .show-burger {
+        display: block;
+    }
+
 }
