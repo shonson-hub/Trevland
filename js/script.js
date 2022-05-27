@@ -65,3 +65,25 @@ const goToTop = () => {
 }
 
 goToTop()
+
+new Swiper ('.swiper', {
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+    },
+    // slidesPerView: 3,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    grabCursor: true,
+    initialSlide: 1,
+    breakpoints: {
+        320: {
+            slidesPerView: 1,
+        },
+        800: {
+            slidesPerView: 3,
+        },
+    },
+})

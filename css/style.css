@@ -341,7 +341,7 @@ box-sizing: border-box;
 .special__item {
     display: block;
     width: 262px;
-    max-height: 334px;
+    height: 334px;
     margin: 0 auto;
     border-radius: 10px;
     transition: all 0.2s linear;
@@ -457,7 +457,8 @@ box-sizing: border-box;
     position: relative;
     margin: 0;
     padding: 0;
-    top: 30px;
+    top: 70px;
+    left: -132px;
     font-family: "Roboto";
     font-weight: 400;
     font-size: 16px;
@@ -1043,4 +1044,26 @@ transform: rotate(-45deg);
 
 .show-burger {
     display: none;
+}
+
+.swiper {
+    height: 450px;
+
+}
+
+.swiper-slide {
+    margin-top: 50px;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 75px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--basic-orange-hover);
+}
+
+@media (max-width: 800px) {
+    .swiper-pagination .swiper-pagination-bullet {
+        width: 45px;
+    }
 }

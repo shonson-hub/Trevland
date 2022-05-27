@@ -9,10 +9,10 @@
         margin-bottom: 20px;
     }
 
-    .item-special:nth-child(1),
+    /* .item-special:nth-child(1),
     .item-special:nth-child(5) {
         display: none;
-    }
+    } */
 
     .special__list {
         margin: 0 auto;
@@ -128,10 +128,10 @@
         padding-bottom: 50px;
     }
 
-    .item-special:nth-child(2),
+    /* .item-special:nth-child(2),
     .item-special:nth-child(4) {
         display: none;
-    }
+    } */
 
     .popular__header p,
     .special__header p,
