@@ -1064,6 +1064,7 @@ transform: rotate(-45deg);
 
 @media (max-width: 800px) {
     .swiper-pagination .swiper-pagination-bullet {
-        width: 45px;
+        width: 10px;
+        height: 10px;
     }
 }
