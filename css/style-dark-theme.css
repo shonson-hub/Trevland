@@ -14,7 +14,8 @@
 .dark-theme .about__link:hover,
 .dark-theme .terms__link:hover,
 .dark-theme .menu__logo,
-.dark-theme .menu__link
+.dark-theme .menu__link,
+.dark-theme .burger-menu__link
 {
     text-shadow: 
     0 0 10px var(--basic-violet),
@@ -43,16 +44,36 @@
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.dark-theme .subscribe__input::-webkit-input-placeholder {
+    color: whitesmoke;
+}
+
+.dark-theme .subscribe__input::-moz-placeholder {
+    color: whitesmoke;
+}
+
+.dark-theme .subscribe__input:-ms-input-placeholder {
+    color: whitesmoke;
+}
+
+.dark-theme .subscribe__input::-ms-input-placeholder {
+    color: whitesmoke;
+}
+
 .dark-theme .subscribe__input::placeholder {
     color: whitesmoke;
 }
 
 .dark-theme .header {
     background-image: none;
+    -webkit-transition: none 0.1s ease-in;
+    -o-transition: none 0.1s ease-in;
     transition: none 0.1s ease-in;
 }
 
 .dark-theme .sun-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -62,8 +83,13 @@
 
 .dark-theme .special__item:hover,
 .dark-theme .popular__item:hover {
+    -webkit-transition: -webkit-box-shadow 0.1s ease-out;
+    transition: -webkit-box-shadow 0.1s ease-out;
+    -o-transition: box-shadow 0.1s ease-out;
     transition: box-shadow 0.1s ease-out;
-    box-shadow: 0px 5px 10px 10px rgba(194, 26, 138, 0.5);
+    transition: box-shadow 0.1s ease-out, -webkit-box-shadow 0.1s ease-out;
+    -webkit-box-shadow: 0px 5px 10px 10px rgba(194, 26, 138, 0.5);
+            box-shadow: 0px 5px 10px 10px rgba(194, 26, 138, 0.5);
 }
 
 .dark-theme .menu__theme:hover {
@@ -71,8 +97,13 @@
 }
 
 .dark-theme button:hover {
+    -webkit-transition: -webkit-box-shadow 0.1s ease-out;
+    transition: -webkit-box-shadow 0.1s ease-out;
+    -o-transition: box-shadow 0.1s ease-out;
     transition: box-shadow 0.1s ease-out;
-    box-shadow: 0px 0px 10px 10px rgba(51, 245, 245, 1);
+    transition: box-shadow 0.1s ease-out, -webkit-box-shadow 0.1s ease-out;
+    -webkit-box-shadow: 0px 0px 10px 10px rgba(51, 245, 245, 1);
+            box-shadow: 0px 0px 10px 10px rgba(51, 245, 245, 1);
 }
 
 .dark-theme .burger-menu__link:hover,
@@ -88,8 +119,13 @@
     0 0 55px var(--neon-blue);
 }
 
+.dark-theme .contacts-footer__title {
+    color: #fff;
+}
+
 .dark-theme .contacts-footer__link:hover {
-    box-shadow: 10px 15px 20px 10px rgba(51, 245, 245, 1);
+    -webkit-box-shadow: 10px 15px 20px 10px rgba(51, 245, 245, 1);
+            box-shadow: 10px 15px 20px 10px rgba(51, 245, 245, 1);
 }
 
 .dark-theme .subscribe__inner span:hover {

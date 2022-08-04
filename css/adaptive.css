@@ -1,18 +1,12 @@
 @media (max-width: 1200px) {
     .popular__list {
         display: block;
-        /* text-align: center; */
     }
     
     .popular__item {
         margin: 0 auto;
         margin-bottom: 20px;
     }
-
-    /* .item-special:nth-child(1),
-    .item-special:nth-child(5) {
-        display: none;
-    } */
 
     .special__list {
         margin: 0 auto;
@@ -29,7 +23,6 @@
     .news__item {
         display: block;
         margin: 0 auto;
-        /* text-align: center; */
     }
 
     .news__item img {
@@ -48,18 +41,25 @@
     .modal-booking {
         max-width: 430px;
         max-height: 245px;
-        background-position: 50% 18%;
+        margin: 0;
+        padding: 0;
+        margin-top: 100px;
+        background: grey;
     }
-    
-    .modal-booking h2,
-    .modal-booking__text{
-        display: none;
+    .modal-booking__container {
+        margin: 0;
     }
 
-    /* .modal-booking__close {
-        top: 10px;
+    .modal-booking h2,
+    .modal-booking__text{
+        margin-top: 50px;
+        color: #fff;
+    }
+
+    .modal-booking__close {
+        /* top: 20px; */
         right: 10px;
-    } */
+    }
 }
 
 @media (max-width: 767px) {
@@ -108,6 +108,7 @@
     .footer__body {
         display: block;
         text-align: center;
+        padding-left: 0;
     }
 
     .footer__subscribe {
@@ -127,11 +128,6 @@
     .subscribe__form {
         padding-bottom: 50px;
     }
-
-    /* .item-special:nth-child(2),
-    .item-special:nth-child(4) {
-        display: none;
-    } */
 
     .popular__header p,
     .special__header p,
@@ -159,7 +155,6 @@
     }
 
     .burger-menu__list {
-        /* display: block; */
         font-family: Roboto;
         font-weight: 500;
         font-size: 18px;
@@ -171,11 +166,26 @@
     }
 
     .burger {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
     .show-burger {
         display: block;
+    }
+
+    .modal-booking {
+        max-width: 280px;
+        min-height: 245px;
+        margin: 0;
+        padding: 0;
+        background: grey;
+        color: #fff;
+    }
+
+    .modal-booking__text{
+        margin-top: -20px;
     }
 
 }

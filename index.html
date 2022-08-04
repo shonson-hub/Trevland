@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Сайт для любителей путешествовать и открывать новое.">
     <link href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
@@ -31,7 +32,7 @@
                 </div>
                 <div class="top-header__menu menu">
                     <nav class="menu__body">
-                        <a href="" class="menu__logo">Trevland</a>
+                        <a href="#" class="menu__logo">Trevland</a>
                         <ul class="menu__list">
                             <li class="menu__item"><a href="#" class="menu__link">Home</a></li>
                             <li class="menu__item"><a href="#" class="menu__link">Location</a></li>
@@ -41,7 +42,7 @@
                         </ul>
                         <button type="button" class="menu__booking"><span>Booking now</span></button>
                     </nav>
-                    <button type="button" class="menu__theme"></button>
+                    <button type="button" class="menu__theme" aria-label="dark-theme-toggle"></button>
                 </div>
             </div>
             <section class="header__main main-header">
@@ -56,24 +57,25 @@
     <main class="main">
         <div class="main__container">
             <section class="main__popular popular">
+                <h2 style="display:none">Popular</h2>
                 <div class="popular__header">
-                    <b>Popular Location</b>
+                    <h2>Popular Location</h2>
                     <p>For every one of us, travel came first. We’ve spent years living as nomads, pioneers, and voyagers— from island hopping in the</p>
                 </div>
                 <div class="popular__main">
                     <ul class="popular__list">
                         <li class="popular__item">
-                            <img src="img/turkey.png" width="360" height="331" alt="Воздушные шары">
+                            <img src="img/turkey.webp" width="360" height="331" alt="Воздушные шары">
                             <b>Istanbul, Turkey</b>
                             <p>Istanbul is a major city in Turkey that straddles Europe.</p>
                         </li>
                         <li class="popular__item">
-                            <img src="img/malaysia.png" width="360" height="331" alt="Статуя будды">
+                            <img src="img/malaysia.webp" width="360" height="331" alt="Статуя будды">
                             <b>Kuala Lumpur, Malaysia</b>
                             <p>A 272-step long trek leads you to this century.</p>
                         </li>
                         <li class="popular__item">
-                            <img src="img/south-korea.png" width="360" height="331" alt="Общий план с домами и мостами">
+                            <img src="img/south-korea.webp" width="360" height="331" alt="Общий план с домами и мостами">
                             <b>Seoul, South Korea</b>
                             <p>South Korea officially the Republic of Korea is a country in East Asia.</p>
                         </li>
@@ -82,18 +84,15 @@
             </section>
             <section class="main__special special">
                 <div class="special__header">
-                    <b>Special Offers</b>
+                    <h2>Special Offers</h2>
                     <p>With the New Year comes a refreshing sense of wanderlust, a longing in our souls to escape to warmer climates.</p>
                 </div>
-                <!-- Slider main container -->
                 <div class="swiper">
-                    <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
-                    <!-- Slides -->
                         <div class="swiper-slide">
                             <div class="special__item item-special">
-                                <a href="" class="item-special__link">
-                                    <img src="img/new-york.png" width="262" height="173" alt="Статуя свободы на фоне города">
+                                <a href="#" class="item-special__link">
+                                    <img src="img/new-york.webp" width="262" height="173" alt="Статуя свободы на фоне города">
                                     <div class="item-special__body">
                                         <b class="item-special__name">Statue of Liberty.</b>
                                         <p class="item-special__city">New York</p>
@@ -106,8 +105,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="special__item item-special">
-                                <a href="" class="item-special__link">
-                                    <img src="img/great-wall.png" width="262" height="173" alt="Статуя свободы на фоне города">
+                                <a href="#" class="item-special__link">
+                                    <img src="img/great-wall.webp" width="262" height="173" alt="Статуя свободы на фоне города">
                                     <div class="item-special__body">
                                         <b class="item-special__name">The Great Wall</b>
                                         <p class="item-special__city">China</p>
@@ -120,8 +119,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="special__item item-special">
-                                <a href="" class="item-special__link">
-                                    <img src="img/dizin-valley.png" width="262" height="173" alt="Статуя свободы на фоне города">
+                                <a href="#" class="item-special__link">
+                                    <img src="img/dizin-valley.webp" width="262" height="173" alt="Статуя свободы на фоне города">
                                     <div class="item-special__body">
                                         <b class="item-special__name">Dizin</b>
                                         <p class="item-special__city">Iran</p>
@@ -134,8 +133,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="special__item item-special">
-                                <a href="" class="item-special__link">
-                                    <img src="img/sajek-valley.png" width="262" height="173" alt="Статуя свободы на фоне города">
+                                <a href="#" class="item-special__link">
+                                    <img src="img/sajek-valley.webp" width="262" height="173" alt="Статуя свободы на фоне города">
                                     <div class="item-special__body">
                                         <b class="item-special__name">Sajek Valley</b>
                                         <p class="item-special__city">Bangladesh</p>
@@ -148,8 +147,8 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="special__item item-special">
-                                <a href="" class="item-special__link">
-                                    <img src="img/osaka-castle.jpg" width="262" height="173" alt="Дворец в японском стиле">
+                                <a href="#" class="item-special__link">
+                                    <img src="img/osaka-castle.webp" width="262" height="173" alt="Дворец в японском стиле">
                                     <div class="item-special__body">
                                         <b class="item-special__name">Osaka Castle</b>
                                         <p class="item-special__city">Japan</p>
@@ -162,16 +161,17 @@
                         </div>
                     </div>
                     <div class="swiper-pagination"></div>
+                </div>
             </section>
             <section class="main__news news">
                 <div class="news__header">
-                    <b>From Blog & News</b>
+                    <h2>From Blog & News</h2>
                     <p>Welcome to Community Conversations, a new interview series featuring Intrepid travellers, creatives and activists in our community.</p>
                 </div>
                 <ul class="news__list">
                     <li class="news__item news__item--main">
                         <div class="news__picture">
-                            <img src="img/national-park.png" alt="фото озера и леса на фоне гор">
+                            <img src="img/national-park.webp" alt="фото озера и леса на фоне гор">
                         </div>
                         <div class="news__body">
                             <b>Banff National Park</b>
@@ -181,7 +181,7 @@
                     </li>
                     <li class="news__item">
                         <div class="news__picture">
-                            <img src="img/hiroshima-japan.png" alt="разрушенное здание у водойома">
+                            <img src="img/hiroshima-japan.webp" alt="разрушенное здание у водойома">
                         </div>
                         <div class="news__body">
                             <b>The Hiroshima Peace!</b>
@@ -191,7 +191,7 @@
                     </li>
                     <li class="news__item">
                         <div class="news__picture">
-                            <img src="img/india-castle.png" alt="Стены крепости у моря">
+                            <img src="img/india-castle.webp" alt="Стены крепости у моря">
                         </div>
                         <div class="news__body">
                             <b>The faithful prayers!</b>
@@ -201,7 +201,7 @@
                     </li>
                     <li class="news__item">
                         <div class="news__picture">
-                            <img src="img/pakistan-lake.png" alt="озеро на фоне скал">
+                            <img src="img/pakistan-lake.webp" alt="озеро на фоне скал">
                         </div>
                         <div class="news__body">
                             <b>Colourful waters!</b>
@@ -218,17 +218,17 @@
             <div class="footer__body">
                 <div class="footer__contacts contacts-footer">
                     <div class="contacts-footer__header">
-                        <a class="contacts-footer__title">Trevland</a>
+                        <a href="#" class="contacts-footer__title">Trevland</a>
                         <div class="contacts-footer__main">
                             <p>Contact us</p>
                             <P>@shovasatkhira88.com</P>
                         </div>
                     </div>
                     <ul class="contacts-footer__list">
-                        <li class="contacts-footer__item"><a href="https://www.facebook.com/" class="contacts-footer__link contacts-footer__link--facebook"></a></li>
-                        <li class="contacts-footer__item"><a href="https://www.instagam.com/" class="contacts-footer__link contacts-footer__link--instagram"></a></li>
-                        <li class="contacts-footer__item"><a href="https://www.twitter.com/" class="contacts-footer__link contacts-footer__link--twitter"></a></li>
-                        <li class="contacts-footer__item"><a href="https://www.google.com/" class="contacts-footer__link contacts-footer__link--google"></a></li>
+                        <li class="contacts-footer__item"><a href="https://www.facebook.com/" class="contacts-footer__link contacts-footer__link--facebook" id="facebook"></a></li>
+                        <li class="contacts-footer__item"><a href="https://www.instagam.com/" class="contacts-footer__link contacts-footer__link--instagram" id="instagam"></a></li>
+                        <li class="contacts-footer__item"><a href="https://www.twitter.com/" class="contacts-footer__link contacts-footer__link--twitter" id="twitter"></a></li>
+                        <li class="contacts-footer__item"><a href="https://www.google.com/" class="contacts-footer__link contacts-footer__link--google" id="google"></a></li>
                     </ul>
                 </div>
                 <div class="footer__about about">
@@ -242,14 +242,14 @@
                 </div>
                 <div class="footer__terms terms">
                     <ul class="terms__list">
-                        <li class="terms__item"><a class="terms__link">Legal</a></li>
-                        <li class="terms__item"><a class="terms__link">Terms & Conditions</a></li>
-                        <li class="terms__item"><a class="terms__link">Privecy Policy</a></li>
-                        <li class="terms__item"><a class="terms__link">Terms of use</a></li>
+                        <li class="terms__item"><a href="#" class="terms__link">Legal</a></li>
+                        <li class="terms__item"><a href="#" class="terms__link">Terms & Conditions</a></li>
+                        <li class="terms__item"><a href="#" class="terms__link">Privecy Policy</a></li>
+                        <li class="terms__item"><a href="#" class="terms__link">Terms of use</a></li>
                     </ul>
                 </div>
-                <div method="post" class="footer__subscribe subscribe">
-                    <form class="subscribe__form">
+                <div class="footer__subscribe subscribe">
+                    <form method="post" class="subscribe__form">
                         <div class="subscribe__inner">
                             <label class="subscribe__label" for="subscribe__input">
                                 <span>s</span><span>u</span><span>b</span><span>s</span><span>c</span><span>r</span><span>i</span><span>b</span><span>e</span>
